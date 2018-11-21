@@ -5,6 +5,8 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.ImageSwitcher;
+import android.widget.ImageView;
 import android.widget.Toast;
 
 import java.net.PasswordAuthentication;
@@ -23,6 +25,8 @@ public class MainActivity extends AppCompatActivity {
 
         Toast.makeText(MainActivity.this, "hi there " + userNameText.getText().toString(), Toast.LENGTH_SHORT).show();
 
+        ImageView varCarImage = (ImageView) findViewById(R.id.CarImage);
+        varCarImage.setImageResource(R.drawable.cars2);
 
 
     }

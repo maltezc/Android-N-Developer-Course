@@ -23,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
         Log.i("amount", dollarAmountEditText.getText().toString());
 
 
+
     }
 
     @Override

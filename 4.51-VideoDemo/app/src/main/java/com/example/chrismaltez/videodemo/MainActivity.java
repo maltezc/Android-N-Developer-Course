@@ -2,6 +2,7 @@ package com.example.chrismaltez.videodemo;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.widget.MediaController;
 import android.widget.VideoView;
 
 public class MainActivity extends AppCompatActivity {
@@ -13,7 +14,13 @@ public class MainActivity extends AppCompatActivity {
 
         VideoView videoView = (VideoView) findViewById(R.id.videoView);
 
-        videoView.setVideoPath("android.resource://" + getPackageName() + R.drawable.demovideo.mp4); // this line doesnt work. figure out alternative.
+        videoView.setVideoPath("android.resource://" + getPackageName() + R.raw.demovideo);
+
+        MediaController mediaController = new MediaController(this);
+
+        mediaController.setAnchorView(videoView);
+
+        videoView.setMediaController(mediaController);
 
         videoView.start();
 

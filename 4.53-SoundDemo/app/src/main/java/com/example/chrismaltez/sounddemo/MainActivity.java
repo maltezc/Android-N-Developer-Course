@@ -63,7 +63,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        final SeekBar scrubber = (SeekBar) findViewById(R.id.scrubber);
+        final SeekBar scrubber = findViewById(R.id.scrubber);
         scrubber.setMax(mPlayer.getDuration());
 
         new Timer().scheduleAtFixedRate(new TimerTask() {

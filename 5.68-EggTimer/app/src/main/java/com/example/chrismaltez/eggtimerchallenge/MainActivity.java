@@ -50,12 +50,14 @@ public class MainActivity extends AppCompatActivity {
             counterIsActive = true;
             timerSeekBar.setEnabled(false);
             controllerButton.setText("Stop");
+            timerSeekBar.setVisibility(View.INVISIBLE);
 
 
             countDownTimer = new CountDownTimer(timerSeekBar.getProgress() * 1000 + 100, 1000) {
                 @Override
                 public void onTick(long millisUntilFinished) {
                     updateTimer((int) millisUntilFinished / 1000);
+                    timerSeekBar.setVisibility(View.VISIBLE);
                 }
 
                 @Override

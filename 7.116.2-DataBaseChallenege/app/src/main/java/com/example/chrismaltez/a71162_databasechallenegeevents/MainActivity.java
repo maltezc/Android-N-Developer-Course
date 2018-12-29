@@ -15,24 +15,41 @@ public class MainActivity extends AppCompatActivity {
 
         try {
 
-            SQLiteDatabase myDatabase = this.openOrCreateDatabase("Events", MODE_PRIVATE, null);
+            SQLiteDatabase myDatabase = this.openOrCreateDatabase("Users", MODE_PRIVATE, null);
 
-            myDatabase.execSQL("CREATE TABLE IF NOT EXISTS events(title VARCHAR, year INT(4))");
+//            myDatabase.execSQL("CREATE TABLE IF NOT EXISTS users(name VARCHAR, age INT(3))");
 
-            myDatabase.execSQL("INSERT INTO events(title, year) VALUES ('Pearl Harbor', 1942)");
+            myDatabase.execSQL("CREATE TABLE IF NOT EXISTS newUsers (name VARCHAR, age INTEGER(3), id INTEGER PRIMARY KEY)");
 
-            myDatabase.execSQL("INSERT INTO events(title, year) VALUES ('World War1', 1914)");
+//             myDatabase.execSQL("INSERT INTO newUsers(name, age) VALUES ('chris', 28)");
+//
+//            myDatabase.execSQL("INSERT INTO newUsers(name, age) VALUES ('kevin', 32)");
+//
+//            myDatabase.execSQL("INSERT INTO newUsers(name, age) VALUES ('johnie', 5)");
 
-            Cursor c = myDatabase.rawQuery("SELECT * FROM events", null);
+//            Cursor c = myDatabase.rawQuery("SELECT * FROM users WHERE age < 18", null); // filters for age less than 18
+//            Cursor c = myDatabase.rawQuery("SELECT * FROM users WHERE name = 'chris' AND age = 21", null);
+//            Cursor c = myDatabase.rawQuery("SELECT * FROM users WHERE name LIKE 'C%'", null); // searches for names taht begin with C
+//            Cursor c = myDatabase.rawQuery("SELECT * FROM users WHERE name LIKE '%i%'", null); // any name with an I
+//            Cursor c = myDatabase.rawQuery("SELECT * FROM users WHERE name LIKE '%i%' LIMIT 3", null); // limits to first 3 entries
 
-            int eventIndex = c.getColumnIndex("title");
-            int yearIndex = c.getColumnIndex("year");
+//             myDatabase.execSQL("DELETE FROM newUsers WHERE id = 4"); // cant use limit to delete, better to use specific id number
+
+//            myDatabase.execSQL("UPDATE users SET age = 2 WHERE name = 'johnie'"); // updates age
+
+
+             Cursor c = myDatabase.rawQuery("SELECT * FROM newUsers", null);
+
+            int nameIndex = c.getColumnIndex("name");
+            int ageIndex = c.getColumnIndex("age");
+            int idIndex = c.getColumnIndex("id");
 
             c.moveToFirst();
 
             while (c != null) {
-                Log.i("title", c.getString(eventIndex));
-                Log.i("year", Integer.toString(c.getInt(yearIndex)));
+                Log.i("name", c.getString(nameIndex));
+                Log.i("age", Integer.toString(c.getInt(ageIndex)));
+                Log.i("id", Integer.toString(c.getInt(idIndex)));
                 c.moveToNext();
             }
 

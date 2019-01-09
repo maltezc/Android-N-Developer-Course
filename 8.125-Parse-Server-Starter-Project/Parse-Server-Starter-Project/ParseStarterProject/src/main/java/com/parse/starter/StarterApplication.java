@@ -32,28 +32,14 @@ public class StarterApplication extends Application {
     Parse.initialize(new Parse.Configuration.Builder(getApplicationContext())
             .applicationId("2098d85f93dd590908591ccf3bee6adc6c043d6b")
             .clientKey("0c05b803e5c416e55479596e2524f68bb92b9612")
-            .server("http://34.209.212.103:80/parse/")
+            .server("http://54.189.130.137:80/parse/") // this changes everytime you restart the server
             .build()
     );
 
-    ParseObject object = new ParseObject("ExampleObject");
-    object.put("myNumber", "123");
-    object.put("myString", "rob");
 
-    object.saveInBackground(new SaveCallback () {
-      @Override
-      public void done(ParseException ex) {
-        if (ex == null) {
-          Log.i("Parse Result", "Successful!");
-        } else {
-          Log.i("Parse Result", "Failed" + ex.toString());
-        }
-      }
-    });
 
 
     ParseUser.enableAutomaticUser();
-
     ParseACL defaultACL = new ParseACL();
     defaultACL.setPublicReadAccess(true);
     defaultACL.setPublicWriteAccess(true);
@@ -61,3 +47,8 @@ public class StarterApplication extends Application {
 
   }
 }
+
+// run this to get password for parse:
+//sudo cat /opt/bitnami/var/data/bitnami_credentials/credentials
+
+

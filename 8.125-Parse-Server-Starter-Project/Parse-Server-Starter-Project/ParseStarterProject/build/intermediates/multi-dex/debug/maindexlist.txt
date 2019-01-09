@@ -106,7 +106,6 @@ android/support/annotation/RequiresPermission$Read.class
 android/support/v7/app/AppCompatCallback.class
 com/google/android/gms/internal/zzcj.class
 com/google/android/gms/ads/internal/purchase/zzb.class
-com/parse/ParseCallback1.class
 com/google/android/gms/analytics/GoogleAnalytics.class
 android/support/v4/widget/SlidingPaneLayout.class
 com/google/android/gms/common/api/GoogleApiClient.class
@@ -381,6 +380,7 @@ com/google/android/gms/internal/zzdg.class
 com/google/android/gms/wallet/fragment/WalletFragmentStyle.class
 com/google/android/gms/wearable/ChannelApi.class
 com/google/android/gms/internal/zzfj.class
+com/parse/ParseCallback2.class
 com/google/android/gms/internal/zzdf.class
 android/support/v4/widget/MaterialProgressDrawable$Ring.class
 com/google/android/gms/awareness/fence/FenceState.class
@@ -406,6 +406,7 @@ com/google/android/gms/internal/zzqu.class
 android/support/v4/view/ViewCompatHC.class
 com/parse/EventuallyPin.class
 com/google/android/gms/wallet/EnableWalletOptimizationReceiver.class
+com/parse/GetCallback.class
 android/support/annotation/StyleRes.class
 android/support/v4/app/BackStackRecord.class
 android/support/annotation/XmlRes.class
@@ -557,7 +558,6 @@ android/support/v4/media/MediaBrowserCompat$ServiceBinderWrapper.class
 com/google/android/gms/gcm/Task.class
 android/support/v4/widget/MaterialProgressDrawable.class
 com/google/android/gms/wearable/DataApi$DataItemResult.class
-com/parse/SaveCallback.class
 android/support/v4/media/MediaDescriptionCompat$Builder.class
 android/support/v4/media/MediaMetadataCompat$Builder.class
 android/support/v7/app/ActionBarDrawerToggle$Delegate.class
@@ -646,6 +646,7 @@ com/google/android/gms/gcm/OneoffTask.class
 com/google/android/gms/games/social/Social$InviteUpdateResult.class
 android/support/v4/app/FragmentManager$BackStackEntry.class
 android/support/v4/view/ViewCompat$HCViewCompatImpl.class
+com/parse/starter/MainActivity$1.class
 com/google/android/gms/wallet/Address.class
 android/support/v4/media/VolumeProviderCompat$ControlType.class
 com/google/android/gms/auth/api/signin/internal/SignInConfiguration.class
@@ -912,7 +913,6 @@ com/google/android/gms/measurement/internal/zzae$zza.class
 android/support/v4/view/ViewCompatICSMr1.class
 com/google/android/gms/ads/internal/overlay/zzj.class
 com/google/android/gms/games/Games.class
-com/parse/starter/StarterApplication$1.class
 android/support/v4/app/FragmentManager.class
 com/google/android/gms/internal/zzjm.class
 com/google/android/gms/location/places/personalized/PlaceUserData.class

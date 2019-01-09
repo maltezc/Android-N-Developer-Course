@@ -14,6 +14,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Switch;
 
+import com.parse.FindCallback;
 import com.parse.GetCallback;
 import com.parse.LogInCallback;
 import com.parse.Parse;
@@ -25,6 +26,8 @@ import com.parse.ParseQuery;
 import com.parse.ParseUser;
 import com.parse.SaveCallback;
 
+import java.util.List;
+
 
 public class MainActivity extends AppCompatActivity {
 
@@ -34,6 +37,56 @@ public class MainActivity extends AppCompatActivity {
     super.onCreate(savedInstanceState);
     setContentView(R.layout.activity_main);
 
+
+    ParseQuery<ParseObject> query = ParseQuery.getQuery("Score");
+
+    query.whereGreaterThan("score", 200);
+
+    query.findInBackground(new FindCallback<ParseObject>() {
+      @Override
+      public void done(List<ParseObject> objects, ParseException e) {
+        if (e == null & objects != null) {
+
+          for (ParseObject object : objects) {
+
+            object.put("score", object.getInt("score") + 50);
+            object.saveInBackground();
+          }
+
+        }
+      }
+    });
+
+
+
+/*
+    ParseQuery<ParseObject> query = ParseQuery.getQuery("Score");
+
+    query.whereEqualTo("username", "tommy");
+    query.setLimit(1);
+
+    query.findInBackground(new FindCallback<ParseObject>() {
+      @Override
+      public void done(List<ParseObject> objects, ParseException e) {
+
+        if (e == null) {
+
+          Log.i("findInBackground", "Retrieved " + objects.size() + "objects");
+
+          if (objects.size() > 0) {
+
+            for (ParseObject object : objects) {
+
+              Log.i("findInBackground", Integer.toString(object.getInt("score")));
+            }
+          }
+        }
+
+      }
+    });
+*/
+
+/*
     ParseQuery<ParseObject> query = ParseQuery.getQuery("Tweets");
     query.getInBackground("ewjG6Npqpl", new GetCallback<ParseObject>() {
       @Override
@@ -46,6 +99,7 @@ public class MainActivity extends AppCompatActivity {
         }
       }
     });
+    */
 
 /*
     ParseObject tweet = new ParseObject("Tweets");

@@ -25,6 +25,7 @@ import com.parse.ParseObject;
 import com.parse.ParseQuery;
 import com.parse.ParseUser;
 import com.parse.SaveCallback;
+import com.parse.SignUpCallback;
 
 import java.util.List;
 
@@ -37,7 +38,62 @@ public class MainActivity extends AppCompatActivity {
     super.onCreate(savedInstanceState);
     setContentView(R.layout.activity_main);
 
+    ParseUser.logOut();
 
+    if (ParseUser.getCurrentUser() != null) { // means user is logged in
+
+      Log.i("currentUser", "user logged in " + ParseUser.getCurrentUser().getUsername());
+
+    } else {
+
+      Log.i("CurrentUser", "User is not logged in");
+
+    }
+
+    /*
+
+    ParseUser.logInInBackground("robpercival", "asdf", new LogInCallback() {
+      @Override
+      public void done(ParseUser user, ParseException e) {
+        if (user != null) {
+
+          Log.i("login", "succesful");
+
+        } else {
+
+          Log.i("login", "failed " + e.toString());
+        }
+      }
+    });
+
+    */
+
+
+/*
+    ParseUser user = new ParseUser();
+    user.setUsername("robpercival");
+    user.setPassword("myPass");
+
+    user.signUpInBackground(new SignUpCallback() {
+      @Override
+      public void done(ParseException e) {
+
+        if (e == null) {
+
+          Log.i("Sign Up", "Successful");
+
+        } else {
+
+          Log.i("Sign up", "Failed");
+
+        }
+      }
+
+      });
+      */
+
+
+/* how to add points to "score
     ParseQuery<ParseObject> query = ParseQuery.getQuery("Score");
 
     query.whereGreaterThan("score", 200);
@@ -56,7 +112,7 @@ public class MainActivity extends AppCompatActivity {
         }
       }
     });
-
+*/
 
 
 /*

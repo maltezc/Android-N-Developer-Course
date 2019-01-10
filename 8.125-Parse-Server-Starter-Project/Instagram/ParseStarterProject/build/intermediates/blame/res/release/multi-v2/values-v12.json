@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/chrismaltez/Library/Mobile Documents/com~apple~CloudDocs/pycharmprojects/UDEMY/Android-N-Developer-Course/8.125-Parse-Server-Starter-Project/Instagram/ParseStarterProject/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-v12/values-v12.xml",
+            "map": [
+                {
+                    "source": "/Users/chrismaltez/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/fd3a48ee7f1f15d18a38e7844a60c2c7/res/values-v12/values-v12.xml",
+                    "from": {
+                        "startLines": "2,5,8,9",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,279,479,598",
+                        "endLines": "4,7,8,9",
+                        "endColumns": "12,12,118,94",
+                        "endOffsets": "274,474,593,688"
+                    }
+                }
+            ]
+        }
+    ]
+}

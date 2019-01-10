@@ -1,0 +1,4 @@
+#Wed Jan 09 20:23:38 PST 2019
+base.0=/Users/chrismaltez/Library/Mobile Documents/com~apple~CloudDocs/pycharmprojects/UDEMY/Android-N-Developer-Course/8.125-Parse-Server-Starter-Project/Instagram/ParseStarterProject/build/intermediates/transforms/dexMerger/debug/10
+path.0=classes.dex
+renamed.0=classes.dex

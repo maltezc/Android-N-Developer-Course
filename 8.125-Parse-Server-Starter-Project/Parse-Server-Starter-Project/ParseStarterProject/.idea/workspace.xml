@@ -39,13 +39,13 @@
       <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/parse/starter/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="116" column="9" selection-start-line="116" selection-start-column="9" selection-end-line="116" selection-end-column="9" />
+            <state relative-caret-position="315">
+              <caret line="88" column="127" selection-start-line="88" selection-start-column="127" selection-end-line="88" selection-end-column="127" />
               <folding>
-                <element signature="e#2411#2705#0" expanded="true" />
-                <element signature="e#2704#2705#0" expanded="true" />
-                <element signature="e#2835#2964#0" expanded="true" />
-                <element signature="e#2963#2964#0" expanded="true" />
+                <element signature="e#2584#2878#0" expanded="true" />
+                <element signature="e#2877#2878#0" expanded="true" />
+                <element signature="e#3008#3332#0" expanded="true" />
+                <element signature="e#3331#3332#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -58,7 +58,7 @@
           </provider>
           <provider editor-type-id="text-editor">
             <state relative-caret-position="198">
-              <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+              <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -2485,14 +2485,14 @@
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Preview" weight="0.32956383" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32965517" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32965517" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.1875862" />
       <window_info anchor="bottom" id="Logcat" order="7" weight="0.32827586" />
       <window_info id="Captures" order="2" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4979424" visible="true" weight="0.14378029" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4979424" visible="true" weight="0.14378029" />
       <window_info anchor="bottom" id="Build" order="7" weight="0.33793104" />
       <window_info anchor="right" id="Gradle" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -2518,10 +2518,10 @@
         <state relative-caret-position="75">
           <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
           <folding>
-            <element signature="e#2411#2705#0" expanded="true" />
-            <element signature="e#2704#2705#0" expanded="true" />
-            <element signature="e#2835#2964#0" expanded="true" />
-            <element signature="e#2963#2964#0" expanded="true" />
+            <element signature="e#2584#2878#0" expanded="true" />
+            <element signature="e#2877#2878#0" expanded="true" />
+            <element signature="e#3008#3332#0" expanded="true" />
+            <element signature="e#3331#3332#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2546,19 +2546,19 @@
       </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="198">
-          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/parse/starter/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="116" column="9" selection-start-line="116" selection-start-column="9" selection-end-line="116" selection-end-column="9" />
+        <state relative-caret-position="315">
+          <caret line="88" column="127" selection-start-line="88" selection-start-column="127" selection-end-line="88" selection-end-column="127" />
           <folding>
-            <element signature="e#2411#2705#0" expanded="true" />
-            <element signature="e#2704#2705#0" expanded="true" />
-            <element signature="e#2835#2964#0" expanded="true" />
-            <element signature="e#2963#2964#0" expanded="true" />
+            <element signature="e#2584#2878#0" expanded="true" />
+            <element signature="e#2877#2878#0" expanded="true" />
+            <element signature="e#3008#3332#0" expanded="true" />
+            <element signature="e#3331#3332#0" expanded="true" />
           </folding>
         </state>
       </provider>

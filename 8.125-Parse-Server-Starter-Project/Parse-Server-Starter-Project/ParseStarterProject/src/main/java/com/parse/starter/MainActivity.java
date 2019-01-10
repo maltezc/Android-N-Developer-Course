@@ -8,13 +8,18 @@
  */
 package com.parse.starter;
 import android.content.Intent;
+import android.media.Image;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
+import android.view.KeyEvent;
 import android.view.View;
 import android.view.View.OnClickListener;
+import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
+import android.widget.RelativeLayout;
 import android.widget.Switch;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -37,10 +42,26 @@ import org.w3c.dom.Text;
 import java.util.List;
 
 
-public class MainActivity extends AppCompatActivity implements OnClickListener {
+public class MainActivity extends AppCompatActivity implements OnClickListener, View.OnKeyListener {
 
   Boolean signUpModeActive = true;
+
   TextView changeSignupModeTextView;
+
+  EditText passwordEditText;
+
+  @Override
+  public boolean onKey(View view, int i, KeyEvent keyEvent) {
+
+    if (i == KeyEvent.KEYCODE_ENTER && keyEvent.getAction() == keyEvent.ACTION_DOWN)  {
+
+      signUp(view);
+
+    }
+
+    return false;
+
+  }
 
   @Override
   public void onClick(View view) {
@@ -63,6 +84,11 @@ public class MainActivity extends AppCompatActivity implements OnClickListener {
 
       }
 
+    } else if (view.getId() == R.id.backgroundRelativeLayout || view.getId() == R.id.logoImageView) {
+
+      InputMethodManager inputMethodManager = (InputMethodManager) getSystemService(INPUT_METHOD_SERVICE); // gets the keyboard
+      inputMethodManager.hideSoftInputFromWindow(getCurrentFocus().getWindowToken(), 0);
+
     }
   }
 
@@ -70,7 +96,7 @@ public class MainActivity extends AppCompatActivity implements OnClickListener {
 
   EditText usernameEditText = (EditText)findViewById(R.id.usernameEditText);
 
-  EditText passwordEditText = (EditText)findViewById(R.id.passwordEditText);
+  passwordEditText = (EditText)findViewById(R.id.passwordEditText);
 
   if (usernameEditText.getText().toString().matches("") || passwordEditText.getText().toString().matches("")) {
 
@@ -132,12 +158,23 @@ public class MainActivity extends AppCompatActivity implements OnClickListener {
 
     changeSignupModeTextView.setOnClickListener(this);
 
+    RelativeLayout backgroundRelativeLayout = (RelativeLayout) findViewById(R.id.backgroundRelativeLayout);
 
+    ImageView logoImageView = (ImageView) findViewById(R.id.logoImageView);
+
+    backgroundRelativeLayout.setOnClickListener(this);
+
+    logoImageView.setOnClickListener(this);
+
+    passwordEditText = (EditText) findViewById(R.id.passwordEditText);
+
+    passwordEditText.setOnKeyListener(this);
 
 
 
     ParseAnalytics.trackAppOpenedInBackground(getIntent());
   }
+
 
 }
 

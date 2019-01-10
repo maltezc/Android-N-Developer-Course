@@ -1048,6 +1048,10 @@
         "source": "/Users/robpercival/Desktop/Whatsapp/ParseStarterProject/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.4.0/res/drawable/cast_ic_expanded_controller_play.xml"
     },
     {
+        "merged": "/Users/chrismaltez/Library/Mobile Documents/com~apple~CloudDocs/pycharmprojects/UDEMY/Android-N-Developer-Course/8.125-Parse-Server-Starter-Project/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/merged/debug/drawable/instagramlogo.jpeg",
+        "source": "/Users/chrismaltez/Library/Mobile Documents/com~apple~CloudDocs/pycharmprojects/UDEMY/Android-N-Developer-Course/8.125-Parse-Server-Starter-Project/Parse-Server-Starter-Project/ParseStarterProject/src/debug/res/drawable/instagramlogo.jpeg"
+    },
+    {
         "merged": "/Users/chrismaltez/Library/Mobile Documents/com~apple~CloudDocs/pycharmprojects/UDEMY/Android-N-Developer-Course/8.125-Parse-Server-Starter-Project/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/merged/debug/drawable/cast_ic_expanded_controller_closed_caption.xml",
         "source": "/Users/chrismaltez/Library/Mobile Documents/com~apple~CloudDocs/pycharmprojects/UDEMY/Android-N-Developer-Course/8.125-Parse-Server-Starter-Project/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.4.0/res/drawable/cast_ic_expanded_controller_closed_caption.xml"
     },

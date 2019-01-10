@@ -1,4 +1,4 @@
-#Wed Jan 09 14:47:48 PST 2019
+#Wed Jan 09 16:27:13 PST 2019
 base.0=/Users/chrismaltez/Library/Mobile Documents/com~apple~CloudDocs/pycharmprojects/UDEMY/Android-N-Developer-Course/8.125-Parse-Server-Starter-Project/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/1f/main
 renamed.1=classes.dex
 renamed.0=classes2.dex

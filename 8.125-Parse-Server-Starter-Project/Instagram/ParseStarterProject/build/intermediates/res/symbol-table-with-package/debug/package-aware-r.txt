@@ -594,6 +594,7 @@ id search_plate
 id search_src_text
 id search_voice_btn
 id select_dialog_listview
+id share
 id shortcut
 id showCustom
 id showHome
@@ -670,6 +671,7 @@ layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
+menu share_menu
 mipmap ic_launcher
 string abc_action_bar_home_description
 string abc_action_bar_home_description_format

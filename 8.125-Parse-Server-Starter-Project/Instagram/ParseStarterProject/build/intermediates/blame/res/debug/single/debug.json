@@ -1,27 +1,27 @@
 [
     {
-        "merged": "/Users/chrismaltez/Library/Mobile Documents/com~apple~CloudDocs/pycharmprojects/UDEMY/Android-N-Developer-Course/8.125-Parse-Server-Starter-Project/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_ic_star_half_black_16dp.png.flat",
-        "source": "/Users/chrismaltez/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/fd3a48ee7f1f15d18a38e7844a60c2c7/res/drawable-xxxhdpi-v4/abc_ic_star_half_black_16dp.png"
-    },
-    {
         "merged": "/Users/chrismaltez/Library/Mobile Documents/com~apple~CloudDocs/pycharmprojects/UDEMY/Android-N-Developer-Course/8.125-Parse-Server-Starter-Project/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/layout_abc_action_mode_close_item_material.xml.flat",
         "source": "/Users/chrismaltez/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/fd3a48ee7f1f15d18a38e7844a60c2c7/res/layout/abc_action_mode_close_item_material.xml"
     },
     {
-        "merged": "/Users/chrismaltez/Library/Mobile Documents/com~apple~CloudDocs/pycharmprojects/UDEMY/Android-N-Developer-Course/8.125-Parse-Server-Starter-Project/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_cab_background_top_mtrl_alpha.9.png.flat",
-        "source": "/Users/chrismaltez/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/fd3a48ee7f1f15d18a38e7844a60c2c7/res/drawable-mdpi-v4/abc_cab_background_top_mtrl_alpha.9.png"
+        "merged": "/Users/chrismaltez/Library/Mobile Documents/com~apple~CloudDocs/pycharmprojects/UDEMY/Android-N-Developer-Course/8.125-Parse-Server-Starter-Project/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_ic_star_half_black_16dp.png.flat",
+        "source": "/Users/chrismaltez/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/fd3a48ee7f1f15d18a38e7844a60c2c7/res/drawable-xxxhdpi-v4/abc_ic_star_half_black_16dp.png"
     },
     {
-        "merged": "/Users/chrismaltez/Library/Mobile Documents/com~apple~CloudDocs/pycharmprojects/UDEMY/Android-N-Developer-Course/8.125-Parse-Server-Starter-Project/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/layout_abc_screen_content_include.xml.flat",
-        "source": "/Users/chrismaltez/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/fd3a48ee7f1f15d18a38e7844a60c2c7/res/layout/abc_screen_content_include.xml"
+        "merged": "/Users/chrismaltez/Library/Mobile Documents/com~apple~CloudDocs/pycharmprojects/UDEMY/Android-N-Developer-Course/8.125-Parse-Server-Starter-Project/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/anim_abc_fade_in.xml.flat",
+        "source": "/Users/chrismaltez/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/fd3a48ee7f1f15d18a38e7844a60c2c7/res/anim/abc_fade_in.xml"
     },
     {
         "merged": "/Users/chrismaltez/Library/Mobile Documents/com~apple~CloudDocs/pycharmprojects/UDEMY/Android-N-Developer-Course/8.125-Parse-Server-Starter-Project/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_btn_switch_to_on_mtrl_00001.9.png.flat",
         "source": "/Users/chrismaltez/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/fd3a48ee7f1f15d18a38e7844a60c2c7/res/drawable-mdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png"
     },
     {
-        "merged": "/Users/chrismaltez/Library/Mobile Documents/com~apple~CloudDocs/pycharmprojects/UDEMY/Android-N-Developer-Course/8.125-Parse-Server-Starter-Project/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/anim_abc_fade_in.xml.flat",
-        "source": "/Users/chrismaltez/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/fd3a48ee7f1f15d18a38e7844a60c2c7/res/anim/abc_fade_in.xml"
+        "merged": "/Users/chrismaltez/Library/Mobile Documents/com~apple~CloudDocs/pycharmprojects/UDEMY/Android-N-Developer-Course/8.125-Parse-Server-Starter-Project/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/layout_abc_screen_content_include.xml.flat",
+        "source": "/Users/chrismaltez/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/fd3a48ee7f1f15d18a38e7844a60c2c7/res/layout/abc_screen_content_include.xml"
+    },
+    {
+        "merged": "/Users/chrismaltez/Library/Mobile Documents/com~apple~CloudDocs/pycharmprojects/UDEMY/Android-N-Developer-Course/8.125-Parse-Server-Starter-Project/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_cab_background_top_mtrl_alpha.9.png.flat",
+        "source": "/Users/chrismaltez/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/fd3a48ee7f1f15d18a38e7844a60c2c7/res/drawable-mdpi-v4/abc_cab_background_top_mtrl_alpha.9.png"
     },
     {
         "merged": "/Users/chrismaltez/Library/Mobile Documents/com~apple~CloudDocs/pycharmprojects/UDEMY/Android-N-Developer-Course/8.125-Parse-Server-Starter-Project/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_ic_voice_search_api_mtrl_alpha.png.flat",
@@ -48,12 +48,12 @@
         "source": "/Users/chrismaltez/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/fd3a48ee7f1f15d18a38e7844a60c2c7/res/drawable-mdpi-v4/abc_list_longpressed_holo.9.png"
     },
     {
-        "merged": "/Users/chrismaltez/Library/Mobile Documents/com~apple~CloudDocs/pycharmprojects/UDEMY/Android-N-Developer-Course/8.125-Parse-Server-Starter-Project/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
-        "source": "/Users/chrismaltez/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/fd3a48ee7f1f15d18a38e7844a60c2c7/res/drawable-xxxhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png"
-    },
-    {
         "merged": "/Users/chrismaltez/Library/Mobile Documents/com~apple~CloudDocs/pycharmprojects/UDEMY/Android-N-Developer-Course/8.125-Parse-Server-Starter-Project/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_ic_menu_moreoverflow_mtrl_alpha.png.flat",
         "source": "/Users/chrismaltez/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/fd3a48ee7f1f15d18a38e7844a60c2c7/res/drawable-xxhdpi-v4/abc_ic_menu_moreoverflow_mtrl_alpha.png"
+    },
+    {
+        "merged": "/Users/chrismaltez/Library/Mobile Documents/com~apple~CloudDocs/pycharmprojects/UDEMY/Android-N-Developer-Course/8.125-Parse-Server-Starter-Project/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
+        "source": "/Users/chrismaltez/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/fd3a48ee7f1f15d18a38e7844a60c2c7/res/drawable-xxxhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png"
     },
     {
         "merged": "/Users/chrismaltez/Library/Mobile Documents/com~apple~CloudDocs/pycharmprojects/UDEMY/Android-N-Developer-Course/8.125-Parse-Server-Starter-Project/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/layout_notification_template_lines.xml.flat",
@@ -72,12 +72,12 @@
         "source": "/Users/chrismaltez/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/fd3a48ee7f1f15d18a38e7844a60c2c7/res/drawable/abc_ratingbar_indicator_material.xml"
     },
     {
-        "merged": "/Users/chrismaltez/Library/Mobile Documents/com~apple~CloudDocs/pycharmprojects/UDEMY/Android-N-Developer-Course/8.125-Parse-Server-Starter-Project/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_btn_rating_star_on_mtrl_alpha.png.flat",
-        "source": "/Users/chrismaltez/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/fd3a48ee7f1f15d18a38e7844a60c2c7/res/drawable-mdpi-v4/abc_btn_rating_star_on_mtrl_alpha.png"
-    },
-    {
         "merged": "/Users/chrismaltez/Library/Mobile Documents/com~apple~CloudDocs/pycharmprojects/UDEMY/Android-N-Developer-Course/8.125-Parse-Server-Starter-Project/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_btn_radio_to_on_mtrl_015.png.flat",
         "source": "/Users/chrismaltez/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/fd3a48ee7f1f15d18a38e7844a60c2c7/res/drawable-xxxhdpi-v4/abc_btn_radio_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "/Users/chrismaltez/Library/Mobile Documents/com~apple~CloudDocs/pycharmprojects/UDEMY/Android-N-Developer-Course/8.125-Parse-Server-Starter-Project/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_btn_rating_star_on_mtrl_alpha.png.flat",
+        "source": "/Users/chrismaltez/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/fd3a48ee7f1f15d18a38e7844a60c2c7/res/drawable-mdpi-v4/abc_btn_rating_star_on_mtrl_alpha.png"
     },
     {
         "merged": "/Users/chrismaltez/Library/Mobile Documents/com~apple~CloudDocs/pycharmprojects/UDEMY/Android-N-Developer-Course/8.125-Parse-Server-Starter-Project/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_list_selector_disabled_holo_dark.9.png.flat",
@@ -120,12 +120,12 @@
         "source": "/Users/chrismaltez/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/fd3a48ee7f1f15d18a38e7844a60c2c7/res/drawable/abc_seekbar_track_material.xml"
     },
     {
-        "merged": "/Users/chrismaltez/Library/Mobile Documents/com~apple~CloudDocs/pycharmprojects/UDEMY/Android-N-Developer-Course/8.125-Parse-Server-Starter-Project/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_scrubber_control_to_pressed_mtrl_000.png.flat",
-        "source": "/Users/chrismaltez/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/fd3a48ee7f1f15d18a38e7844a60c2c7/res/drawable-xhdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png"
-    },
-    {
         "merged": "/Users/chrismaltez/Library/Mobile Documents/com~apple~CloudDocs/pycharmprojects/UDEMY/Android-N-Developer-Course/8.125-Parse-Server-Starter-Project/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/layout_notification_media_action.xml.flat",
         "source": "/Users/chrismaltez/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/fd3a48ee7f1f15d18a38e7844a60c2c7/res/layout/notification_media_action.xml"
+    },
+    {
+        "merged": "/Users/chrismaltez/Library/Mobile Documents/com~apple~CloudDocs/pycharmprojects/UDEMY/Android-N-Developer-Course/8.125-Parse-Server-Starter-Project/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_scrubber_control_to_pressed_mtrl_000.png.flat",
+        "source": "/Users/chrismaltez/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/fd3a48ee7f1f15d18a38e7844a60c2c7/res/drawable-xhdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png"
     },
     {
         "merged": "/Users/chrismaltez/Library/Mobile Documents/com~apple~CloudDocs/pycharmprojects/UDEMY/Android-N-Developer-Course/8.125-Parse-Server-Starter-Project/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/layout_abc_activity_chooser_view.xml.flat",
@@ -798,6 +798,10 @@
     {
         "merged": "/Users/chrismaltez/Library/Mobile Documents/com~apple~CloudDocs/pycharmprojects/UDEMY/Android-N-Developer-Course/8.125-Parse-Server-Starter-Project/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/drawable-ldrtl-hdpi-v17_abc_ic_ab_back_mtrl_am_alpha.png.flat",
         "source": "/Users/chrismaltez/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/fd3a48ee7f1f15d18a38e7844a60c2c7/res/drawable-ldrtl-hdpi-v17/abc_ic_ab_back_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "/Users/chrismaltez/Library/Mobile Documents/com~apple~CloudDocs/pycharmprojects/UDEMY/Android-N-Developer-Course/8.125-Parse-Server-Starter-Project/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/menu_share_menu.xml.flat",
+        "source": "/Users/chrismaltez/Library/Mobile Documents/com~apple~CloudDocs/pycharmprojects/UDEMY/Android-N-Developer-Course/8.125-Parse-Server-Starter-Project/Instagram/ParseStarterProject/src/main/res/menu/share_menu.xml"
     },
     {
         "merged": "/Users/chrismaltez/Library/Mobile Documents/com~apple~CloudDocs/pycharmprojects/UDEMY/Android-N-Developer-Course/8.125-Parse-Server-Starter-Project/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_btn_switch_to_on_mtrl_00012.9.png.flat",
